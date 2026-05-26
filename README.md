@@ -2,7 +2,8 @@
 <p align="center">
 <img src="assets/essorawm-pymenu.png">
 </p>
-<h1 align="Essora PyMenu</h1>
+
+# Essora PyMenu
 
 Modern application menu for Essora Desktop with profiles, favorites, categories and desktop integration.
 
@@ -14,7 +15,7 @@ Modern application menu for Essora Desktop with profiles, favorites, categories 
 
 Essora PyMenu is a fork based on the original PyMenuPup project:
 
-Original project: https://github.com/Woofshahenzup/PyMenuPup
+Original project: [Woofshahenzup](https://github.com/Woofshahenzup/PyMenuPup)
 
 This version has been adapted specifically for the Essora ecosystem, with modifications focused on desktop integration, user configuration, menu generation and Essora visual consistency.
 
