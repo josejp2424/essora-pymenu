@@ -1,0 +1,202 @@
+# ============================================
+# PyMenuPup - Tradução Português Brasileiro
+# Versão: 1.2
+# Instruções: Copie este arquivo como 'pt_BR.lang' e traduza o texto após o '='.
+# ============================================
+
+# === Janela Principal / Configurador ===
+PyMenuPup Configurator = Configurador PyMenuPup
+Window = Janela
+Colors = Cores
+Font = Fonte
+Paths = Caminhos
+Categories = Categorias
+Save = Salvar
+Exit = Sair
+
+# === Mensagens do Sistema (Config) ===
+Config file not found. Creating default config. = Arquivo de configuração não encontrado. Criando configuração padrão.
+Error loading config file: = Erro ao carregar arquivo de configuração:
+Using default config. = Usando configuração padrão.
+Config saved (without closing). = Configuração salva (sem fechar).
+An error occurred: = Ocorreu um erro:
+ERROR: Could not load pymenupuplang.py = ERRO: Não foi possível carregar pymenupuplang.py
+
+# === Saída do Terminal (Logging) ===
+Loading translations from: = Carregando traduções de:
+Category map built with = Mapa de categorias construído com
+entries = entradas
+Window Manager detected: = Gerenciador de Janelas detectado:
+Using user config = Usando configuração do usuário
+Automatically using Tint2 config = Usando configuração Tint2 automaticamente
+Tray config detected from = Configuração da bandeja detectada de
+Now monitoring JWM file for changes: = Monitorando alterações no arquivo JWM:
+Folder created: = Pasta criada:
+Mouse entered applications area = Mouse entrou na área de aplicativos
+Using GTK theme colors = Usando cores do tema GTK
+
+# === Menu Principal GUI (pymenu-globicons.py) ===
+Search applications... = Pesquisar aplicativos...
+Shutdown = Desligar
+Leave = Sair
+Search in the web = Pesquisar na web
+Pymenu config = Configurar Pymenu
+Select avatar = Selecionar avatar
+Terminal = Terminal
+Terminal emulator = Emulador de terminal
+File Manager = Gerenciador de Arquivos
+File manager = Gerenciador de arquivos
+Web browser = Navegador web
+Run = Executar
+Create desktop shortcut = Criar atalho na área de trabalho
+Acceso directo creado: = Atalho criado:
+Comando validado: = Comando validado:
+Error creando acceso directo: = Erro criando atalho:
+Menu update = Atualizar o cardápio
+# === Diretórios do Usuário (XDG) ===
+Home = Início
+Downloads = Downloads
+Music = Música
+Videos = Vídeos
+Pictures = Imagens
+Documents = Documentos
+DownloadsDir = Downloads
+MusicDir = Música
+VideosDir = Vídeos
+PicturesDir = Imagens
+DocumentsDir = Documentos
+Open directory: = Abrir diretório:
+
+# === Redes Sociais ===
+Social Networks = Redes Sociais
+Hide social networks = Ocultar redes sociais
+Hide social networks: = Ocultar redes sociais:
+
+# === Configurações da GUI ===
+General = Geral
+Search bar position: = Posição da barra de pesquisa:
+Use system theme: = Usar tema do sistema:
+Background color: = Cor de fundo:
+Border color: = Cor da borda:
+Categories background: = Fundo das categorias:
+Text normal: = Texto normal:
+Header (OS): = Cabeçalho (Sistema):
+Header (Kernel): = Cabeçalho (Kernel):
+Header (Hostname): = Cabeçalho (Nome do Host):
+Hover background: = Fundo ao passar o mouse:
+Button background: = Fundo do botão:
+Button text: = Texto do botão:
+Font family: = Família da fonte:
+Category font: = Fonte das categorias:
+Category size: = Tamanho das categorias:
+App name size: = Tamanho dos nomes dos apps:
+Header size: = Tamanho do cabeçalho:
+Profile pic path: = Caminho da foto de perfil:
+Profile manager: = Gerenciador de perfil:
+Shutdown command: = Comando de desligamento:
+JWM Tray config: = Configuração da Bandeja JWM:
+Tint2 config: = Configuração Tint2:
+Use Tint2 (instead of JWM): = Usar Tint2 (em vez de JWM):
+Search engine: = Mecanismo de pesquisa:
+
+# === Opções da Janela ===
+Window width: = Largura da janela:
+Window height: = Altura da janela:
+Icon size: = Tamanho dos ícones:
+Category icon size: = Tamanho dos ícones das categorias:
+Profile pic size: = Tamanho da foto de perfil:
+Profile pic shape: = Forma da foto de perfil:
+Show window frame: = Mostrar moldura da janela:
+(No transparency) = (Sem transparência)
+
+# === Opções de Visibilidade ===
+Hide header: = Ocultar cabeçalho:
+Hide profile picture: = Ocultar foto de perfil:
+Hide quick access: = Ocultar acesso rápido:
+Hide categories text: = Ocultar texto das categorias:
+Hide app names: = Ocultar nomes dos apps:
+Hide OS name: = Ocultar nome do Sistema:
+Hide kernel: = Ocultar kernel:
+Hide hostname: = Ocultar nome do host:
+Hide places sidebar: = Ocultar barra lateral de locais:
+(Hides both places and favorites) = (Oculta tanto locais quanto favoritos)
+Hide favorites only: = Ocultar apenas favoritos:
+(Show places but hide favorites) = (Mostrar locais mas ocultar favoritos)
+Show profile in places sidebar: = Mostrar perfil na barra lateral de locais:
+(Instead of header) = (Em vez do cabeçalho)
+
+# === Design do Cabeçalho ===
+Header layout: = Layout do cabeçalho:
+Header text alignment: = Alinhamento do texto do cabeçalho:
+Avatar left = Avatar à esquerda
+Avatar right = Avatar à direita
+Avatar center = Avatar no centro
+
+# === Formas e Posições ===
+square = Quadrado
+circular = Circular
+top = Topo
+bottom = Base
+center = Centro
+left = Esquerda
+right = Direita
+
+# === Alinhamento ===
+Horizontal alignment: = Alinhamento horizontal:
+Search bar container: = Contêiner da barra de pesquisa:
+In window = Na janela
+In applications column = Na coluna de aplicativos
+
+# === Categorias ===
+Excluded categories: = Categorias excluídas:
+Select categories to hide from menu = Selecione categorias para ocultar do menu
+
+# === Nomes das Categorias ===
+Desktop = Desktop
+System = Sistema
+Setup = Configuração
+Utility = Utilitários
+Filesystem = Sistema de Arquivos
+Graphic = Gráfico
+Document = Documentos
+Business = Negócios
+Personal = Pessoal
+Network = Rede
+Internet = Internet
+Multimedia = Multimídia
+Fun = Diversão
+Help = Ajuda
+Rectify = Retificar
+
+# === FAVORITOS ===
+Favorites = Favoritos
+Add favorite = Adicionar favorito
+No favorites yet. Click here to add one. = Nenhum favorito ainda. Clique aqui para adicionar.
+Add Favorite = Adicionar Favorito
+Add = Adicionar
+Select an application: = Selecione um aplicativo:
+Application = Aplicativo
+Select a directory: = Selecione um diretório:
+Path to directory = Caminho para o diretório
+Browse... = Procurar...
+Directory = Pasta
+Name: = Nome:
+Favorite name = Nome do favorito
+Command: = Comando:
+Command to execute = Comando a executar
+Icon (optional): = Ícone (opcional):
+Icon name or path = Nome ou caminho do ícone
+Browse icon = Procurar ícone
+Open File Manager = Abrir Gerenciador de Arquivos
+Command = Comando
+Select Directory = Selecionar Diretório
+Select Icon = Selecionar Ícone
+Image files = Arquivos de imagem
+All files = Todos os arquivos
+
+# === Mensagens de Configuração ===
+Select profile picture = Selecionar foto de perfil
+Select profile manager = Selecionar gerenciador de perfil
+Select shutdown command = Selecionar comando de desligamento
+Select JWM config = Selecionar configuração JWM
+Select Tint2 config = Selecionar configuração Tint2

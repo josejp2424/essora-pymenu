@@ -1,0 +1,202 @@
+# ============================================
+# PyMenuPup - 日本語翻訳
+# バージョン: 1.2
+# 使用方法: このファイルを 'ja.lang' としてコピーし、'=' の後のテキストを翻訳してください。
+# ============================================
+
+# === メインウィンドウ / 設定ツール ===
+PyMenuPup Configurator = PyMenuPup設定ツール
+Window = ウィンドウ
+Colors = 色
+Font = フォント
+Paths = パス
+Categories = カテゴリ
+Save = 保存
+Exit = 終了
+
+# === システムメッセージ (設定) ===
+Config file not found. Creating default config. = 設定ファイルが見つかりません。デフォルト設定を作成しています。
+Error loading config file: = 設定ファイルの読み込みエラー:
+Using default config. = デフォルト設定を使用中。
+Config saved (without closing). = 設定を保存しました（終了せず）。
+An error occurred: = エラーが発生しました:
+ERROR: Could not load pymenupuplang.py = エラー: pymenupuplang.py を読み込めませんでした
+
+# === ターミナル出力 (ログ) ===
+Loading translations from: = 翻訳を読み込み中:
+Category map built with = カテゴリマップ構築完了:
+entries = エントリ
+Window Manager detected: = ウィンドウマネージャー検出:
+Using user config = ユーザー設定を使用中
+Automatically using Tint2 config = Tint2設定を自動的に使用中
+Tray config detected from = トレイ設定を検出:
+Now monitoring JWM file for changes: = JWMファイルの変更を監視中:
+Folder created: = フォルダ作成:
+Mouse entered applications area = マウスがアプリケーション領域に入りました
+Using GTK theme colors = GTKテーマの色を使用中
+
+# === メインメニューGUI (pymenu-globicons.py) ===
+Search applications... = アプリケーションを検索...
+Shutdown = シャットダウン
+Leave = 終了
+Search in the web = ウェブで検索
+Pymenu config = Pymenu設定
+Select avatar = アバターを選択
+Terminal = ターミナル
+Terminal emulator = ターミナルエミュレータ
+File Manager = ファイルマネージャー
+File manager = ファイルマネージャー
+Web browser = ウェブブラウザ
+Run = 実行
+Create desktop shortcut = デスクトップショートカットを作成
+Acceso directo creado: = ショートカット作成完了:
+Comando validado: = コマンド検証完了:
+Error creando acceso directo: = ショートカット作成エラー:
+Menu update = 「メニューを更新する」
+# === ユーザーディレクトリ (XDG) ===
+Home = ホーム
+Downloads = ダウンロード
+Music = 音楽
+Videos = 動画
+Pictures = 画像
+Documents = ドキュメント
+DownloadsDir = ダウンロード
+MusicDir = 音楽
+VideosDir = 動画
+PicturesDir = 画像
+DocumentsDir = ドキュメント
+Open directory: = ディレクトリを開く:
+
+# === ソーシャルネットワーク ===
+Social Networks = ソーシャルネットワーク
+Hide social networks = ソーシャルネットワークを非表示
+Hide social networks: = ソーシャルネットワークを非表示:
+
+# === GUI設定 ===
+General = 一般
+Search bar position: = 検索バーの位置:
+Use system theme: = システムテーマを使用:
+Background color: = 背景色:
+Border color: = 境界線の色:
+Categories background: = カテゴリ背景色:
+Text normal: = 通常テキスト:
+Header (OS): = ヘッダー (OS):
+Header (Kernel): = ヘッダー (カーネル):
+Header (Hostname): = ヘッダー (ホスト名):
+Hover background: = ホバー時の背景:
+Button background: = ボタン背景:
+Button text: = ボタンテキスト:
+Font family: = フォントファミリー:
+Category font: = カテゴリフォント:
+Category size: = カテゴリサイズ:
+App name size: = アプリ名サイズ:
+Header size: = ヘッダーサイズ:
+Profile pic path: = プロフィール画像パス:
+Profile manager: = プロフィールマネージャー:
+Shutdown command: = シャットダウンコマンド:
+JWM Tray config: = JWMトレイ設定:
+Tint2 config: = Tint2設定:
+Use Tint2 (instead of JWM): = Tint2を使用 (JWMの代わりに):
+Search engine: = 検索エンジン:
+
+# === ウィンドウオプション ===
+Window width: = ウィンドウ幅:
+Window height: = ウィンドウ高さ:
+Icon size: = アイコンサイズ:
+Category icon size: = カテゴリアイコンサイズ:
+Profile pic size: = プロフィール画像サイズ:
+Profile pic shape: = プロフィール画像形状:
+Show window frame: = ウィンドウ枠を表示:
+(No transparency) = (透明なし)
+
+# === 表示オプション ===
+Hide header: = ヘッダーを非表示:
+Hide profile picture: = プロフィール画像を非表示:
+Hide quick access: = クイックアクセスを非表示:
+Hide categories text: = カテゴリテキストを非表示:
+Hide app names: = アプリ名を非表示:
+Hide OS name: = OS名を非表示:
+Hide kernel: = カーネルを非表示:
+Hide hostname: = ホスト名を非表示:
+Hide places sidebar: = 場所サイドバーを非表示:
+(Hides both places and favorites) = (場所とお気に入りの両方を非表示)
+Hide favorites only: = お気に入りのみ非表示:
+(Show places but hide favorites) = (場所は表示、お気に入りは非表示)
+Show profile in places sidebar: = 場所サイドバーにプロフィールを表示:
+(Instead of header) = (ヘッダーの代わりに)
+
+# === ヘッダーデザイン ===
+Header layout: = ヘッダーレイアウト:
+Header text alignment: = ヘッダーテキスト配置:
+Avatar left = アバター左
+Avatar right = アバター右
+Avatar center = アバター中央
+
+# === 形状と位置 ===
+square = 四角
+circular = 円形
+top = 上
+bottom = 下
+center = 中央
+left = 左
+right = 右
+
+# === 配置 ===
+Horizontal alignment: = 水平配置:
+Search bar container: = 検索バーコンテナ:
+In window = ウィンドウ内
+In applications column = アプリケーション列内
+
+# === カテゴリ ===
+Excluded categories: = 除外するカテゴリ:
+Select categories to hide from menu = メニューから非表示にするカテゴリを選択
+
+# === カテゴリ名 ===
+Desktop = デスクトップ
+System = システム
+Setup = 設定
+Utility = ユーティリティ
+Filesystem = ファイルシステム
+Graphic = グラフィック
+Document = ドキュメント
+Business = ビジネス
+Personal = 個人
+Network = ネットワーク
+Internet = インターネット
+Multimedia = マルチメディア
+Fun = 娯楽
+Help = ヘルプ
+Rectify = 修正
+
+# === お気に入り ===
+Favorites = お気に入り
+Add favorite = お気に入りを追加
+No favorites yet. Click here to add one. = お気に入りはまだありません。クリックして追加してください。
+Add Favorite = お気に入りを追加
+Add = 追加
+Select an application: = アプリケーションを選択:
+Application = アプリケーション
+Select a directory: = ディレクトリを選択:
+Path to directory = ディレクトリへのパス
+Browse... = 参照...
+Directory = フォルダ
+Name: = 名前:
+Favorite name = お気に入り名
+Command: = コマンド:
+Command to execute = 実行するコマンド
+Icon (optional): = アイコン (任意):
+Icon name or path = アイコン名またはパス
+Browse icon = アイコンを参照
+Open File Manager = ファイルマネージャーを開く
+Command = コマンド
+Select Directory = ディレクトリを選択
+Select Icon = アイコンを選択
+Image files = 画像ファイル
+All files = すべてのファイル
+
+# === 設定メッセージ ===
+Select profile picture = プロフィール画像を選択
+Select profile manager = プロフィールマネージャーを選択
+Select shutdown command = シャットダウンコマンドを選択
+Select JWM config = JWM設定を選択
+Select Tint2 config = Tint2設定を選択

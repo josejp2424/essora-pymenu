@@ -1,0 +1,80 @@
+{
+    "window": {
+        "width": 682,
+        "height": 440,
+        "halign": "center",
+        "icon_size": 16,
+        "profile_pic_size": 64,
+        "decorated_window": false,
+        "hide_header": false,
+        "hide_category_text": false,
+        "category_icon_size": 40,
+        "profile_pic_shape": "circular",
+        "header_layout": "center",
+        "hide_os_name": true,
+        "hide_kernel": true,
+        "hide_hostname": false,
+        "hide_profile_pic": false,
+        "header_text_align": "left",
+        "search_bar_position": "bottom",
+        "hide_places": false,
+        "hide_favorites": true,
+        "profile_in_places": true,
+        "search_bar_container": "apps_column"
+    },
+    "font": {
+        "family": "Cantarell 12",
+        "size_categories": 15000,
+        "size_names": 14000,
+        "size_header": 14000
+    },
+    "colors": {
+        "background": "rgba(25, 27, 32, 1.00)",
+        "border": "rgba(159, 192, 130, 1.00)",
+        "text_normal": "#f6f5f4",
+        "text_header_os": "#769609",
+        "text_header_kernel": "#769609",
+        "text_header_hostname": "#769609",
+        "hover_background": "rgba(255, 255, 255, 0.1)",
+        "selected_background": "rgba(255, 255, 255, 0.2)",
+        "selected_text": "#ECEFF4",
+        "button_normal_background": "rgba(25, 27, 32, 1.00)",
+        "button_text": "#ECEFF4",
+        "categories_background": "rgba(18, 20, 21, 1.00)",
+        "background_opacity": 0.7,
+        "use_gtk_theme": false
+    },
+    "paths": {
+        "profile_pic": "/usr/local/pymenu/icon-pymenu/preferences-desktop-essora.svg",
+        "profile_manager": "/usr/local/pymenu/ProfileManager.py",
+        "shutdown_cmd": "/usr/local/bin/logout_gui",
+        "jwmrc_tray": "/usr/share/jwm/jwm/jwmrc-tray",
+        "tint2rc": "/usr/share/tint2/tint2/tint2rc"
+    },
+    "categories": {
+        "excluded": [
+            "Leave",
+            "Shutdown"
+        ]
+    },
+    "tray": {
+        "use_tint2": false
+    },
+    "favorites": [
+        {
+            "name": "essora-store",
+            "exec": "gtk-launch essora-store.desktop",
+            "icon": "/usr/local/essora-store/essora-store.png"
+        },
+        {
+            "name": "firefox-esr",
+            "exec": "gtk-launch firefox-esr.desktop",
+            "icon": "firefox-esr"
+        },
+        {
+            "name": "lxterminal",
+            "exec": "gtk-launch lxterminal.desktop",
+            "icon": "/usr/share/pixmaps/terminator.svg"
+        }
+    ]
+}

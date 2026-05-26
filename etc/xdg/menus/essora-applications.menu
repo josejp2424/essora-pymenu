@@ -1,0 +1,396 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+ "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+
+<Menu>
+
+	<Name>Applications</Name>
+	<Directory>essora-menu-applications.directory</Directory>
+
+	<!-- Read standard .directory and .desktop file locations -->
+	<DefaultAppDirs/>
+	<DefaultDirectoryDirs/>
+
+	<!-- Read in overrides and child menus from applications-merged/ -->
+	<DefaultMergeDirs/>
+		<Menu>
+		<Name>Favorites</Name>
+		<Directory>essora-favorites.directory</Directory>
+		<Include>
+			<And>
+				<Category>Favorites</Category>  <!-- Si existe la categoría 'Favorites' en .desktop -->
+			</And>
+		</Include>
+	</Menu> <!-- Fin Favoritos -->
+	<!-- Accessories submenu -->
+	<Menu>
+		<Name>Accessories</Name>
+            <Directory>essora-utilities.directory</Directory>
+			<Include>
+				<And><Category>Filesystem</Category></And>
+				<And><Category>FileManager</Category></And>
+				<And><Category>Filesystem</Category></And>
+				<And><Category>FileManager</Category></And>
+				<And><Category>X-Filesystem-find</Category></And>
+                <And><Category>X-FilesystemMount</Category></And>
+                <And><Category>X-Filesystem</Category></And>
+			    <And><Category>X-FilesystemUtility</Category></And>
+                <And><Category>X-FilesystemFind</Category></And>
+				<And><Category>X-Filesystem-mount</Category></And>
+				<And><Category>X-Filesystem-storage</Category></And>
+				<And><Category>Archiving</Category></And>	
+		        <And><Category>TerminalEmulator</Category></And>
+				<And><Category>Shell</Category></And>
+				<And><Category>Utility</Category></And>
+				<And><Category>X-Utility</Category></And>
+				<And><Category>X-Utility-development</Category></And>
+				<And><Category>Emulator</Category></And>
+				<And><Category>Documentation</Category></And>
+				<And><Category>X-Utility-shell</Category></And>
+				<And><Category>Viewer</Category></And>
+				<And><Category>Development</Category></And>
+				<And><Category>Building</Category></And>
+				<And><Category>Debugger</Category></And>
+				<And><Category>IDE</Category></And>
+				<And><Category>Profiling</Category></And>
+				<And><Category>Translation</Category></And>
+				<And><Category>GUIDesigner</Category></And>
+				<And><Category>X-Develop-Sub</Category></And>    
+			    <And><Category>Utility</Category></And>
+				<And><Category>TerminalEmulator</Category></And>
+				<And><Category>Shell</Category></And>
+				<And><Category>Utility</Category></And>
+				<And><Category>X-Utility</Category></And>
+				<And><Category>X-Utility-development</Category></And>
+				<And><Category>Emulator</Category></And>
+				<And><Category>Documentation</Category></And>
+				<And><Category>X-Utility-shell</Category></And>
+				<And><Category>Viewer</Category></And>
+				<And><Category>Development</Category></And>
+				<And><Category>Building</Category></And>
+				<And><Category>Debugger</Category></And>
+				<And><Category>IDE</Category></And>
+				<And><Category>Profiling</Category></And>
+				<And><Category>Translation</Category></And>
+				<And><Category>GUIDesigner</Category></And>
+				<And><Category>X-Develop-Sub</Category></And>
+				<And><Category>Accessibility</Category></And>			
+		</Include>
+	</Menu> <!-- End Accessories -->
+
+	<!-- Accessibility submenu -->
+	<Menu>
+		<Name>Universal Access</Name>
+		<Directory>essora-utilities.directory</Directory>
+		<Include>
+		</Include>
+	</Menu> <!-- End Accessibility -->
+
+	<!-- Development Tools -->
+	<Menu>
+		<Name>Development</Name>
+		<Directory>essora-development.directory</Directory>
+		<Include>
+		</Include>
+	</Menu> <!-- End Development Tools -->
+
+	<!-- Education -->
+	<Menu>
+		<Name>Education</Name>
+		<Directory>essora-education.directory</Directory>
+		<Include>
+		</Include>
+	</Menu> <!-- End Education -->
+
+	<!-- Games -->
+	<Menu>
+		<Name>Games</Name>
+		<Directory>essora-games.directory</Directory>
+		<Include>
+			<And><Category>Game</Category></And>
+			<And><Category>Game</Category></And>
+			<And><Category>Amusement</Category></And>
+			<And><Category>ActionGame</Category></And>
+			<And><Category>AdventureGame</Category></And>
+			<And><Category>ArcadeGame</Category></And>
+			<And><Category>BlocksGame</Category></And>
+			<And><Category>BoardGame</Category></And>
+			<And><Category>CardGame</Category></And>
+			<And><Category>KidsGame</Category></And>
+			<And><Category>LogicGame</Category></And>
+			<And><Category>RolePlaying</Category></And>
+			<And><Category>Simulation</Category></And>
+			<And><Category>SportsGame</Category></And>
+			<And><Category>StrategyGame</Category></And>
+			<And><Category>X-Fun</Category></And>
+			<And><Category>X-Fun-adventure</Category></And>
+			<And><Category>X-Fun-boardgame</Category></And>
+			<And><Category>X-Fun-cardgame</Category></And>
+			<And><Category>X-Fun-puzzle</Category></And>
+			<And><Category>X-Fun-shooter</Category></And>
+			<And><Category>X-Fun-arcade</Category></And>
+		</Include>
+	</Menu> <!-- End Games -->
+
+	<!-- Graphics -->
+	<Menu>
+		<Name>Graphics</Name>
+		<Directory>essora-graphics.directory</Directory>
+		<Include>
+	  <And><Category>Graphics</Category></And>
+	  <And><Category>Graphic</Category></And>
+      <And><Category>X-Graphic</Category></And>
+      <And><Category>X-Graphic-draw</Category></And>
+      <And><Category>Graphics</Category></And>
+      <And><Category>2DGraphics</Category></And>
+      <And><Category>3DGraphics</Category></And>
+      <And><Category>Photography</Category></And>
+      <And><Category>X-Graphic-paint</Category></And>
+      <And><Category>X-Graphic-scanner</Category></And>
+      <And><Category>Scanning</Category></And>
+      <And><Category>OCR</Category></And>
+      <And><Category>X-Graphic-print</Category></And>
+      <And><Category>X-Graphic-flow</Category></And>
+      <And><Category>Chart</Category></And>
+      <And><Category>X-Graphic-viewer</Category></And>
+      <And><Category>Viewer</Category></And>
+      <And><Category>X-Graphic-camera</Category></And>
+      <And><Category>FlowChart</Category></And>
+      <And><Category>VectorGraphics</Category></And>
+      <And><Category>RasterGraphics</Category></And>
+      <And><Category>X-Graphic-utility</Category></And>
+      <And><Category>X-GraphicUtility</Category></And>
+      <And><Category>Presentation</Category></And>
+		</Include>
+	</Menu> <!-- End Graphics -->
+
+	<!-- Internet -->
+	<Menu>
+		<Name>Internet</Name>
+			<Directory>essora-internet.directory</Directory>
+			<Include>
+		<Category>Network</Category>
+        <Category>X-Network-firewall</Category>
+        <Category>X-Network</Category>
+        <Category>X-Network-phone</Category>
+        <Category>X-Network-connect</Category>
+        <Category>Dialup</Category>
+        <Category>VPN</Category>
+        <Category>HamRadio</Category>
+        <Category>RemoteAccess</Category>
+        <Category>X-Network-transfer</Category>
+        <Category>X-Network-utility</Category>
+	    <Category>X-Internet</Category>
+	    <Category>Internet</Category>
+        <Category>X-Internet-browser</Category>
+        <Category>X-Internet-block</Category>
+        <Category>WebBrowser</Category>
+        <Category>Email</Category>
+        <Category>News</Category>
+        <Category>InstantMessaging</Category>
+        <Category>Telephony</Category>
+        <Category>IRCClient</Category>
+        <Category>FileTransfer</Category>
+        <Category>P2P</Category>
+        <Category>X-Internet-transfer</Category>
+        <Category>X-Internet-chat</Category>
+        <Category>Internet</Category>
+        <Category>Chat</Category>
+        <Category>X-Internet-login</Category>
+        <Category>X-Internet-mailnews</Category>
+        <Category>VideoConference</Category>
+		</Include>
+	</Menu>	 <!-- End Internet -->
+
+	<!-- Multimedia -->
+	<Menu>
+		<Name>Multimedia</Name>
+		<Directory>essora-multimedia.directory</Directory>
+		<Include>
+	  <And><Category>AudioVideo</Category></And>
+	  <And><Category>AudioVideo</Category></And>
+      <And><Category>X-Multimedia</Category></And>
+      <And><Category>AudioVideo</Category></And>
+      <And><Category>Video</Category></And>
+      <And><Category>Player</Category></And>
+      <And><Category>AudioVideoEditing</Category></And>
+      <And><Category>Recorder</Category></And>
+      <And><Category>Music</Category></And>
+      <And><Category>Audio</Category></And>
+      <And><Category>Midi</Category></And>
+      <And><Category>Mixer</Category></And>
+      <And><Category>Sequencer</Category></And>
+      <And><Category>Tuner</Category></And>
+      <And><Category>Video</Category></And>
+      <And><Category>TV</Category></And>
+      <And><Category>DiskBurning</Category></And>
+      <And><Category>DiskRipping</Category></And>
+      <And><Category>X-Multimedia-mediaplayer</Category></And>
+      <And><Category>X-Multimedia-audiovideo</Category></And>
+      <And><Category>X-Multimedia-sound</Category></And>
+      <And><Category>X-Multimedia-video</Category></And>
+      <And><Category>X-Multimedia-optical</Category></And>
+      <And><Category>X-Multimedia-utility</Category></And>			
+		</Include>
+	</Menu>	 <!-- End Multimedia -->
+
+	<!-- Office -->
+	<Menu>
+		<Name>Office</Name>
+		<Directory>essora-office.directory</Directory>
+		<Include>
+	  <And><Category>Office</Category></And>
+	 <And><Category>X-Business</Category></And>
+	  <And><Category>Document</Category></And>
+      <And><Category>X-Document</Category></And>
+      <And><Category>Office</Category></And>
+      <And><Category>Database</Category></And>
+      <And><Category>Spreadsheet</Category></And>
+      <And><Category>Science</Category></And>
+      <And><Category>WordProcessor</Category></And>
+      <And><Category>WebDevelopment</Category></And>
+      <And><Category>TextEditor</Category></And>
+      <And><Category>X-DocumentUtility</Category></And>
+      <And><Category>Dictionary</Category></And>
+      <And><Category>X-Document-layout</Category></And>
+      <And><Category>X-Document-catalog</Category></And>
+      <And><Category>X-Document-edit</Category></And>
+      <And><Category>X-Document-viewer</Category></And>
+      <And><Category>X-Document-utility</Category></And>
+      <And><Category>Publishing</Category></And>
+      <And><Category>Personal</Category></And>
+      <And><Category>X-Personal</Category></And>
+      <And><Category>Calendar</Category></And>
+      <And><Category>ContactManagement</Category></And>
+      <And><Category>X-Personal-database</Category></And>
+      <And><Category>X-Personal-date</Category></And>
+      <And><Category>X-Personal-organizer</Category></And>
+      <And><Category>PDA</Category></And>
+      <And><Category>X-Personal-security</Category></And>
+      <And><Category>X-Personal-timing</Category></And>
+      <And><Category>X-PersonalUtility</Category></And>
+      <And><Category>X-Personal-utility</Category></And>
+      <And><Category>X-Personal-education</Category></And>
+      <And><Category>Languages</Category></And>
+      <And><Category>Science</Category></And>
+      <And><Category>ArtificialIntelligence</Category></And>
+      <And><Category>Astronomy</Category></And>
+      <And><Category>Biology</Category></And>
+      <And><Category>Chemistry</Category></And>
+      <And><Category>ComputerScience</Category></And>
+      <And><Category>DataVisualization</Category></And>
+      <And><Category>Economy</Category></And>
+      <And><Category>Electricity</Category></And>
+      <And><Category>Geography</Category></And>
+      <And><Category>Geology</Category></And>
+      <And><Category>Geoscience</Category></And>
+      <And><Category>History</Category></And>
+      <And><Category>ImageProcessing</Category></And>
+      <And><Category>Literature</Category></And>
+      <And><Category>Math</Category></And>
+      <And><Category>NumericalAnalysis</Category></And>
+      <And><Category>MedicalSoftware</Category></And>
+      <And><Category>Physics</Category></And>
+      <And><Category>Robotics</Category></And>
+      <And><Category>Sports</Category></And>
+      <And><Category>ParallelComputing</Category></And>
+      <And><Category>Calculate</Category></And>
+      <And><Category>X-Calculate</Category></And>
+      <And><Category>Finance</Category></And>
+      <And><Category>Spreadsheet</Category></And>
+      <And><Category>ProjectManagement</Category></And>
+      <And><Category>X-CalculateUtility</Category></And>
+      <And><Category>X-Calculate-utility</Category></And>
+      <And><Category>X-Business-spreadsheet</Category></And>
+      <And><Category>X-Business-planner</Category></And>
+      <And><Category>X-Business-finance</Category></And>
+      <And><Category>X-Business-calc</Category></And>
+      <And><Category>Calculator</Category></And>
+      <And><Category>X-Personal</Category></And>
+      <And><Category>Calendar</Category></And>
+      <And><Category>ContactManagement</Category></And>
+      <And><Category>X-PersonalUtility</Category></And>
+      <And><Category>Education</Category></And>
+		</Include>
+	</Menu> <!-- End Office -->
+
+	<!-- System Tools-->
+	<Menu>
+			<Name>System</Name>
+			<Directory>essora-system.directory</Directory>
+			<Include>
+				<And><Category>X-Setup</Category></And>
+                <And><Category>X-Setup-puppy</Category></And>
+                <And><Category>X-SetupEntry</Category></And>
+                <And><Category>PackageManager</Category></And>
+                <And><Category>X-Setup-wizard</Category></And>
+                <And><Category>X-SetupWizard</Category></And>
+                <And><Category>X-Setup-installation</Category></And>
+                <And><Category>X-SetupUtility</Category></And>			
+				<And><Category>System</Category></And>
+				<And><Category>System</Category></And>
+	            <And><Category>Monitor</Category></And>			
+                <And><Category>Security</Category></And>
+                <And><Category>HardwareSettings</Category></And>
+           	    <And><Category>core</Category></And>			
+                <And><Category>Security</Category></And>
+                <And><Category>X-System-security</Category></And>
+                <And><Category>System</Category></And>
+                <And><Category>X-System</Category></And>
+                <And><Category>X-System-process</Category></And>
+                <And><Category>X-SystemSchedule</Category></And>
+                <And><Category>X-System-memory</Category></And>
+                <And><Category>X-SystemMemory</Category></And>
+                <And><Category>X-System-print</Category></And>
+                <And><Category>X-System-storage</Category></And>
+                <And><Category>HardwareSettings</Category></And>
+                <And><Category>Core</Category></And>			
+		</Include>
+	</Menu>	 <!-- End System Tools -->
+
+	<!-- Other -->
+	<Menu>
+		<Name>Other</Name>
+		<Directory>essora-other.directory</Directory>
+		<OnlyUnallocated/>
+		<Include>
+				<And><Category>X-LXDE-Settings</Category></And>
+			    
+		</Include>
+		</Menu> <!-- End Other -->
+
+	<Menu>
+		<Name>DesktopSettings</Name>
+		<Directory>essora-desktop.directory</Directory>
+		<OnlyUnallocated/>
+		<Include>
+				<And><Category>Settings</Category></And>
+				<And><Category>X-Desktop</Category></And>
+                <And><Category>X-Desktop-appearance</Category></And>
+                <And><Category>DesktopSettings</Category></And>
+                <And><Category>X-Desktop-settings</Category></And>
+                <And><Category>X-DesktopCountry</Category></And>
+                <And><Category>Accessibility</Category></And>
+                <And><Category>X-Desktop-windows</Category></And>
+                <And><Category>X-Desktop-sleep</Category></And>
+                <And><Category>Screensaver</Category></And>
+                <And><Category>X-Desktop-applet</Category></And>
+                <And><Category>X-DesktopApplets</Category></And>
+                <And><Category>Clock</Category></And>
+				<And><Category>PackageManager</Category></And>
+				<And><Category>System</Category></And>
+		</Include>
+		<Layout>
+			<Merge type="menus"/>
+			<Merge type="files"/>
+		</Layout>
+
+	</Menu> <!-- End Settings -->
+
+	<Layout>
+		<Merge type="files"/>
+		<Merge type="menus"/>
+		<Separator/>
+		<Menuname>DesktopSettings</Menuname>
+	</Layout>
+
+</Menu> <!-- End Applications -->

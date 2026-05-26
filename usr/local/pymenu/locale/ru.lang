@@ -1,0 +1,202 @@
+# ============================================
+# PyMenuPup - Русский перевод
+# Версия: 1.2
+# Инструкции: Скопируйте этот файл как 'ru.lang' и переведите текст после '='.
+# ============================================
+
+# === Главное окно / Конфигуратор ===
+PyMenuPup Configurator = Конфигуратор PyMenuPup
+Window = Окно
+Colors = Цвета
+Font = Шрифт
+Paths = Пути
+Categories = Категории
+Save = Сохранить
+Exit = Выход
+
+# === Системные сообщения (Конфиг) ===
+Config file not found. Creating default config. = Файл конфигурации не найден. Создание конфигурации по умолчанию.
+Error loading config file: = Ошибка загрузки файла конфигурации:
+Using default config. = Использование конфигурации по умолчанию.
+Config saved (without closing). = Конфигурация сохранена (без закрытия).
+An error occurred: = Произошла ошибка:
+ERROR: Could not load pymenupuplang.py = ОШИБКА: Не удалось загрузить pymenupuplang.py
+
+# === Вывод терминала (Логирование) ===
+Loading translations from: = Загрузка переводов из:
+Category map built with = Карта категорий построена с
+entries = записей
+Window Manager detected: = Обнаружен оконный менеджер:
+Using user config = Использование пользовательской конфигурации
+Automatically using Tint2 config = Автоматическое использование конфигурации Tint2
+Tray config detected from = Конфигурация трея обнаружена из
+Now monitoring JWM file for changes: = Мониторинг изменений файла JWM:
+Folder created: = Папка создана:
+Mouse entered applications area = Мышь вошла в область приложений
+Using GTK theme colors = Использование цветов темы GTK
+
+# === Главное меню GUI (pymenu-globicons.py) ===
+Search applications... = Поиск приложений...
+Shutdown = Выключение
+Leave = Выход
+Search in the web = Поиск в Интернете
+Pymenu config = Настройка Pymenu
+Select avatar = Выбрать аватар
+Terminal = Терминал
+Terminal emulator = Эмулятор терминала
+File Manager = Файловый менеджер
+File manager = Файловый менеджер
+Web browser = Веб-браузер
+Run = Запустить
+Create desktop shortcut = Создать ярлык на рабочем столе
+Acceso directo creado: = Ярлык создан:
+Comando validado: = Команда проверена:
+Error creando acceso directo: = Ошибка создания ярлыка:
+Menu update = Обновить меню.
+# === Пользовательские каталоги (XDG) ===
+Home = Домашний
+Downloads = Загрузки
+Music = Музыка
+Videos = Видео
+Pictures = Изображения
+Documents = Документы
+DownloadsDir = Загрузки
+MusicDir = Музыка
+VideosDir = Видео
+PicturesDir = Изображения
+DocumentsDir = Документы
+Open directory: = Открыть каталог:
+
+# === Социальные сети ===
+Social Networks = Социальные сети
+Hide social networks = Скрыть социальные сети
+Hide social networks: = Скрыть социальные сети:
+
+# === Настройки GUI ===
+General = Общие
+Search bar position: = Позиция строки поиска:
+Use system theme: = Использовать тему системы:
+Background color: = Цвет фона:
+Border color: = Цвет границы:
+Categories background: = Фон категорий:
+Text normal: = Обычный текст:
+Header (OS): = Заголовок (ОС):
+Header (Kernel): = Заголовок (Ядро):
+Header (Hostname): = Заголовок (Имя хоста):
+Hover background: = Фон при наведении:
+Button background: = Фон кнопки:
+Button text: = Текст кнопки:
+Font family: = Семейство шрифтов:
+Category font: = Шрифт категорий:
+Category size: = Размер категорий:
+App name size: = Размер названий приложений:
+Header size: = Размер заголовка:
+Profile pic path: = Путь к фото профиля:
+Profile manager: = Менеджер профиля:
+Shutdown command: = Команда выключения:
+JWM Tray config: = Конфигурация трея JWM:
+Tint2 config: = Конфигурация Tint2:
+Use Tint2 (instead of JWM): = Использовать Tint2 (вместо JWM):
+Search engine: = Поисковая система:
+
+# === Параметры окна ===
+Window width: = Ширина окна:
+Window height: = Высота окна:
+Icon size: = Размер значков:
+Category icon size: = Размер значков категорий:
+Profile pic size: = Размер фото профиля:
+Profile pic shape: = Форма фото профиля:
+Show window frame: = Показать рамку окна:
+(No transparency) = (Без прозрачности)
+
+# === Параметры видимости ===
+Hide header: = Скрыть заголовок:
+Hide profile picture: = Скрыть фото профиля:
+Hide quick access: = Скрыть быстрый доступ:
+Hide categories text: = Скрыть текст категорий:
+Hide app names: = Скрыть названия приложений:
+Hide OS name: = Скрыть название ОС:
+Hide kernel: = Скрыть ядро:
+Hide hostname: = Скрыть имя хоста:
+Hide places sidebar: = Скрыть боковую панель мест:
+(Hides both places and favorites) = (Скрывает как места, так и избранное)
+Hide favorites only: = Скрыть только избранное:
+(Show places but hide favorites) = (Показать места, но скрыть избранное)
+Show profile in places sidebar: = Показать профиль в боковой панели мест:
+(Instead of header) = (Вместо заголовка)
+
+# === Дизайн заголовка ===
+Header layout: = Макет заголовка:
+Header text alignment: = Выравнивание текста заголовка:
+Avatar left = Аватар слева
+Avatar right = Аватар справа
+Avatar center = Аватар по центру
+
+# === Формы и позиции ===
+square = Квадрат
+circular = Круглый
+top = Сверху
+bottom = Снизу
+center = По центру
+left = Слева
+right = Справа
+
+# === Выравнивание ===
+Horizontal alignment: = Горизонтальное выравнивание:
+Search bar container: = Контейнер строки поиска:
+In window = В окне
+In applications column = В колонке приложений
+
+# === Категории ===
+Excluded categories: = Исключенные категории:
+Select categories to hide from menu = Выберите категории для скрытия из меню
+
+# === Имена категорий ===
+Desktop = Рабочий стол
+System = Система
+Setup = Настройка
+Utility = Утилиты
+Filesystem = Файловая система
+Graphic = Графика
+Document = Документы
+Business = Бизнес
+Personal = Личное
+Network = Сеть
+Internet = Интернет
+Multimedia = Мультимедиа
+Fun = Развлечения
+Help = Помощь
+Rectify = Исправить
+
+# === ИЗБРАННОЕ ===
+Favorites = Избранное
+Add favorite = Добавить в избранное
+No favorites yet. Click here to add one. = Пока нет избранного. Нажмите здесь, чтобы добавить.
+Add Favorite = Добавить в избранное
+Add = Добавить
+Select an application: = Выберите приложение:
+Application = Приложение
+Select a directory: = Выберите каталог:
+Path to directory = Путь к каталогу
+Browse... = Обзор...
+Directory = Папка
+Name: = Имя:
+Favorite name = Название избранного
+Command: = Команда:
+Command to execute = Команда для выполнения
+Icon (optional): = Значок (необязательно):
+Icon name or path = Имя или путь значка
+Browse icon = Выбрать значок
+Open File Manager = Открыть файловый менеджер
+Command = Команда
+Select Directory = Выбрать каталог
+Select Icon = Выбрать значок
+Image files = Файлы изображений
+All files = Все файлы
+
+# === Сообщения конфигурации ===
+Select profile picture = Выбрать фото профиля
+Select profile manager = Выбрать менеджер профиля
+Select shutdown command = Выбрать команду выключения
+Select JWM config = Выбрать конфигурацию JWM
+Select Tint2 config = Выбрать конфигурацию Tint2

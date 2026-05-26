@@ -1,0 +1,202 @@
+# ============================================
+# PyMenuPup - Traducció al Català
+# Versió: 1.2
+# Instruccions: Copieu aquest fitxer com 'ca.lang' i traduïu el text després del '='.
+# ============================================
+
+# === Finestra Principal / Configurador ===
+PyMenuPup Configurator = Configurador de PyMenuPup
+Window = Finestra
+Colors = Colors
+Font = Font
+Paths = Rutes
+Categories = Categories
+Save = Desa
+Exit = Surt
+
+# === Missatges del Sistema (Config) ===
+Config file not found. Creating default config. = No s'ha trobat el fitxer de configuració. Creant configuració per defecte.
+Error loading config file: = Error en carregar el fitxer de configuració:
+Using default config. = Utilitzant configuració per defecte.
+Config saved (without closing). = Configuració desada (sense tancar).
+An error occurred: = Ha ocorregut un error:
+ERROR: Could not load pymenupuplang.py = ERROR: No s'ha pogut carregar pymenupuplang.py
+
+# === Terminal Output (Logging) ===
+Loading translations from: = Carregant traduccions des de:
+Category map built with = Mapa de categories construït amb
+entries = entrades
+Window Manager detected: = Gestor de finestres detectat:
+Using user config = Utilitzant configuració de l'usuari
+Automatically using Tint2 config = Utilitzant configuració de Tint2 automàticament
+Tray config detected from = Configuració de la safata detectada des de
+Now monitoring JWM file for changes: = Monitoritzant canvis en el fitxer JWM:
+Folder created: = Carpeta creada:
+Mouse entered applications area = El ratolí ha entrat a l'àrea d'aplicacions
+Using GTK theme colors = Utilitzant colors del tema GTK
+
+# === Main Menu GUI (pymenu-globicons.py) ===
+Search applications... = Cerca aplicacions...
+Shutdown = Apagar
+Leave = Surt
+Search in the web = Cerca a la web
+Pymenu config = Configuració de Pymenu
+Select avatar = Selecciona avatar
+Terminal = Terminal
+Terminal emulator = Emulador de terminal
+File Manager = Gestor d'Arxius
+File manager = Gestor d'arxius
+Web browser = Navegador web
+Run = Executa
+Create desktop shortcut = Crea accés directe a l'escriptori
+Acceso directo creado: = Accés directe creat:
+Comando validado: = Comando validat:
+Error creando acceso directo: = Error creant accés directe:
+Menu update = Actualitzar el menú.
+# === User Directories (XDG) ===
+Home = Inici
+Downloads = Baixades
+Music = Música
+Videos = Vídeos
+Pictures = Imatges
+Documents = Documents
+DownloadsDir = Baixades
+MusicDir = Música
+VideosDir = Vídeos
+PicturesDir = Imatges
+DocumentsDir = Documents
+Open directory: = Obre directori:
+
+# === Social Networks ===
+Social Networks = Xarxes Socials
+Hide social networks = Amaga xarxes socials
+Hide social networks: = Amaga xarxes socials:
+
+# === GUI Configuration Settings ===
+General = General
+Search bar position: = Posició de la barra de cerca:
+Use system theme: = Utilitza tema del sistema:
+Background color: = Color de fons:
+Border color: = Color de vora:
+Categories background: = Fons de categories:
+Text normal: = Text normal:
+Header (OS): = Capçalera (OS):
+Header (Kernel): = Capçalera (Kernel):
+Header (Hostname): = Capçalera (Nom del host):
+Hover background: = Fons al passar el ratolí:
+Button background: = Fons del botó:
+Button text: = Text del botó:
+Font family: = Família de la font:
+Category font: = Font de categories:
+Category size: = Mida de categories:
+App name size: = Mida dels noms d'aplicacions:
+Header size: = Mida de la capçalera:
+Profile pic path: = Ruta de la foto de perfil:
+Profile manager: = Gestor de perfil:
+Shutdown command: = Comandament d'apagada:
+JWM Tray config: = Configuració de JWM Tray:
+Tint2 config: = Configuració de Tint2:
+Use Tint2 (instead of JWM): = Utilitza Tint2 (en lloc de JWM):
+Search engine: = Motor de cerca:
+
+# === Window Options ===
+Window width: = Amplada de la finestra:
+Window height: = Alçada de la finestra:
+Icon size: = Mida d'icones:
+Category icon size: = Mida d'icones de categories:
+Profile pic size: = Mida de la foto de perfil:
+Profile pic shape: = Forma de la foto de perfil:
+Show window frame: = Mostra marc de la finestra:
+(No transparency) = (Sense transparència)
+
+# === Visibility Options ===
+Hide header: = Amaga capçalera:
+Hide profile picture: = Amaga foto de perfil:
+Hide quick access: = Amaga accés ràpid:
+Hide categories text: = Amaga text de categories:
+Hide app names: = Amaga noms d'aplicacions:
+Hide OS name: = Amaga nom del sistema operatiu:
+Hide kernel: = Amaga kernel:
+Hide hostname: = Amaga nom del host:
+Hide places sidebar: = Amaga barra lateral de llocs:
+(Hides both places and favorites) = (Amaga tant llocs com favorits)
+Hide favorites only: = Amaga només favorits:
+(Show places but hide favorites) = (Mostra llocs però amaga favorits)
+Show profile in places sidebar: = Mostra perfil a la barra lateral de llocs:
+(Instead of header) = (En lloc de la capçalera)
+
+# === Header Design ===
+Header layout: = Disseny de la capçalera:
+Header text alignment: = Alineació del text de la capçalera:
+Avatar left = Avatar a l'esquerra
+Avatar right = Avatar a la dreta
+Avatar center = Avatar al centre
+
+# === Shapes and Positions ===
+square = Quadrat
+circular = Circular
+top = A dalt
+bottom = A baix
+center = Centre
+left = Esquerra
+right = Dreta
+
+# === Alignment ===
+Horizontal alignment: = Alineació horitzontal:
+Search bar container: = Contenidor de la barra de cerca:
+In window = A la finestra
+In applications column = A la columna d'aplicacions
+
+# === Categories ===
+Excluded categories: = Categories excloses:
+Select categories to hide from menu = Selecciona categories per amagar del menú
+
+# === Category Names ===
+Desktop = Escriptori
+System = Sistema
+Setup = Configuració
+Utility = Utilitat
+Filesystem = Sistema de fitxers
+Graphic = Gràfic
+Document = Documents
+Business = Negocis
+Personal = Personal
+Network = Xarxa
+Internet = Internet
+Multimedia = Multimèdia
+Fun = Entreteniment
+Help = Ajuda
+Rectify = Rectificar
+
+# === FAVORITES ===
+Favorites = Favorits
+Add favorite = Afegir favorit
+No favorites yet. Click here to add one. = Encara no hi ha favorits. Feu clic aquí per afegir-ne.
+Add Favorite = Afegir Favorit
+Add = Afegir
+Select an application: = Selecciona una aplicació:
+Application = Aplicació
+Select a directory: = Selecciona un directori:
+Path to directory = Ruta al directori
+Browse... = Navega...
+Directory = Carpeta
+Name: = Nom:
+Favorite name = Nom del favorit
+Command: = Comandament:
+Command to execute = Comandament a executar
+Icon (optional): = Icona (opcional):
+Icon name or path = Nom o ruta de la icona
+Browse icon = Navega per icones
+Open File Manager = Obre Gestor d'Arxius
+Command = Comandament
+Select Directory = Selecciona Directori
+Select Icon = Selecciona Icona
+Image files = Fitxers d'imatge
+All files = Tots els fitxers
+
+# === Configuration Messages ===
+Select profile picture = Selecciona foto de perfil
+Select profile manager = Selecciona gestor de perfil
+Select shutdown command = Selecciona comandament d'apagada
+Select JWM config = Selecciona configuració JWM
+Select Tint2 config = Selecciona configuració Tint2

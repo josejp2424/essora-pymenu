@@ -1,0 +1,202 @@
+# ============================================
+# PyMenuPup - Magyar Fordítás
+# Verzió: 1.2
+# Utasítások: Másold ezt a fájlt 'hu.lang' néven, és fordítsd le a '=' jel utáni szöveget.
+# ============================================
+
+# === Fő Ablak / Konfigurátor ===
+PyMenuPup Configurator = PyMenuPup Konfigurátor
+Window = Ablak
+Colors = Színek
+Font = Betűtípus
+Paths = Útvonalak
+Categories = Kategóriák
+Save = Mentés
+Exit = Kilépés
+
+# === Rendszerüzenetek (Konfig) ===
+Config file not found. Creating default config. = Konfigurációs fájl nem található. Alapértelmezett konfiguráció létrehozása.
+Error loading config file: = Hiba a konfigurációs fájl betöltésekor:
+Using default config. = Alapértelmezett konfiguráció használata.
+Config saved (without closing). = Konfiguráció mentve (bezárás nélkül).
+An error occurred: = Hiba történt:
+ERROR: Could not load pymenupuplang.py = HIBA: A pymenupuplang.py nem tölthető be
+
+# === Terminál Kimenet (Naplózás) ===
+Loading translations from: = Fordítások betöltése innen:
+Category map built with = Kategóriatérkép építve:
+entries = bejegyzések
+Window Manager detected: = Ablakkezelő észlelve:
+Using user config = Felhasználói konfiguráció használata
+Automatically using Tint2 config = Tint2 konfiguráció automatikus használata
+Tray config detected from = Tálca konfiguráció észlelve innen:
+Now monitoring JWM file for changes: = JWM fájl változásainak figyelése:
+Folder created: = Mappa létrehozva:
+Mouse entered applications area = Egér belépett az alkalmazások területére
+Using GTK theme colors = GTK téma színeinek használata
+
+# === Főmenü GUI (pymenu-globicons.py) ===
+Search applications... = Alkalmazások keresése...
+Shutdown = Leállítás
+Leave = Kilépés
+Search in the web = Keresés a weben
+Pymenu config = Pymenu beállítása
+Select avatar = Avatar választása
+Terminal = Terminál
+Terminal emulator = Terminál emulátor
+File Manager = Fájlkezelő
+File manager = Fájlkezelő
+Web browser = Webböngésző
+Run = Futtatás
+Create desktop shortcut = Asztali parancsikon létrehozása
+Acceso directo creado: = Parancsikon létrehozva:
+Comando validado: = Parancs érvényesítve:
+Error creando acceso directo: = Hiba a parancsikon létrehozásakor:
+Menu update = Menü frissítése.
+# === Felhasználói Könyvtárak (XDG) ===
+Home = Főkönyvtár
+Downloads = Letöltések
+Music = Zene
+Videos = Videók
+Pictures = Képek
+Documents = Dokumentumok
+DownloadsDir = Letöltések
+MusicDir = Zene
+VideosDir = Videók
+PicturesDir = Képek
+DocumentsDir = Dokumentumok
+Open directory: = Könyvtár megnyitása:
+
+# === Közösségi Hálózatok ===
+Social Networks = Közösségi Hálózatok
+Hide social networks = Közösségi hálózatok elrejtése
+Hide social networks: = Közösségi hálózatok elrejtése:
+
+# === GUI Beállítások ===
+General = Általános
+Search bar position: = Keresősáv pozíciója:
+Use system theme: = Rendszertéma használata:
+Background color: = Háttérszín:
+Border color: = Szegélyszín:
+Categories background: = Kategóriák háttere:
+Text normal: = Normál szöveg:
+Header (OS): = Fejléc (Operációs Rendszer):
+Header (Kernel): = Fejléc (Kernel):
+Header (Hostname): = Fejléc (Hosztnév):
+Hover background: = Egérrel átmeneti háttér:
+Button background: = Gomb háttér:
+Button text: = Gomb szöveg:
+Font family: = Betűcsalád:
+Category font: = Kategória betűtípus:
+Category size: = Kategória méret:
+App name size: = Alkalmazásnév méret:
+Header size: = Fejléc méret:
+Profile pic path: = Profilkép útvonal:
+Profile manager: = Profilkezelő:
+Shutdown command: = Leállítási parancs:
+JWM Tray config: = JWM Tálca konfiguráció:
+Tint2 config: = Tint2 konfiguráció:
+Use Tint2 (instead of JWM): = Tint2 használata (JWM helyett):
+Search engine: = Keresőmotor:
+
+# === Ablak Beállítások ===
+Window width: = Ablak szélessége:
+Window height: = Ablak magassága:
+Icon size: = Ikon méret:
+Category icon size: = Kategória ikon méret:
+Profile pic size: = Profilkép méret:
+Profile pic shape: = Profilkép alak:
+Show window frame: = Ablakkeret megjelenítése:
+(No transparency) = (Nincs átlátszóság)
+
+# === Láthatósági Beállítások ===
+Hide header: = Fejléc elrejtése:
+Hide profile picture: = Profilkép elrejtése:
+Hide quick access: = Gyorselérés elrejtése:
+Hide categories text: = Kategóriák szövegének elrejtése:
+Hide app names: = Alkalmazásnevek elrejtése:
+Hide OS name: = Operációs rendszer nevének elrejtése:
+Hide kernel: = Kernel elrejtése:
+Hide hostname: = Hosztnév elrejtése:
+Hide places sidebar: = Helyek oldalsáv elrejtése:
+(Hides both places and favorites) = (Elrejti a helyeket és a kedvenceket is)
+Hide favorites only: = Csak kedvencek elrejtése:
+(Show places but hide favorites) = (Helyek megjelenítése, de kedvencek elrejtése)
+Show profile in places sidebar: = Profil megjelenítése a helyek oldalsávban:
+(Instead of header) = (Fejléc helyett)
+
+# === Fejléc Tervezés ===
+Header layout: = Fejléc elrendezése:
+Header text alignment: = Fejléc szöveg igazítása:
+Avatar left = Avatar balra
+Avatar right = Avatar jobbra
+Avatar center = Avatar középre
+
+# === Alakzatok és Pozíciók ===
+square = Négyzet
+circular = Kör alakú
+top = Fent
+bottom = Lent
+center = Középen
+left = Bal
+right = Jobb
+
+# === Igazítás ===
+Horizontal alignment: = Vízszintes igazítás:
+Search bar container: = Keresősáv tárolója:
+In window = Az ablakban
+In applications column = Az alkalmazások oszlopában
+
+# === Kategóriák ===
+Excluded categories: = Kizárt kategóriák:
+Select categories to hide from menu = Válassz ki kategóriákat a menüből való elrejtéshez
+
+# === Kategória Nevek ===
+Desktop = Asztal
+System = Rendszer
+Setup = Beállítás
+Utility = Segédprogram
+Filesystem = Fájlrendszer
+Graphic = Grafikus
+Document = Dokumentum
+Business = Üzleti
+Personal = Személyes
+Network = Hálózat
+Internet = Internet
+Multimedia = Multimédia
+Fun = Szórakozás
+Help = Súgó
+Rectify = Javítás
+
+# === KEDVENCEK ===
+Favorites = Kedvencek
+Add favorite = Kedvenc hozzáadása
+No favorites yet. Click here to add one. = Még nincsenek kedvencek. Kattints ide egy hozzáadásához.
+Add Favorite = Kedvenc Hozzáadása
+Add = Hozzáadás
+Select an application: = Válassz egy alkalmazást:
+Application = Alkalmazás
+Select a directory: = Válassz egy könyvtárat:
+Path to directory = Útvonal a könyvtárhoz
+Browse... = Böngészés...
+Directory = Mappa
+Name: = Név:
+Favorite name = Kedvenc neve
+Command: = Parancs:
+Command to execute = Végrehajtandó parancs
+Icon (optional): = Ikon (opcionális):
+Icon name or path = Ikon neve vagy útvonala
+Browse icon = Ikon böngészése
+Open File Manager = Fájlkezelő megnyitása
+Command = Parancs
+Select Directory = Könyvtár kiválasztása
+Select Icon = Ikon kiválasztása
+Image files = Képfájlok
+All files = Minden fájl
+
+# === Konfigurációs Üzenetek ===
+Select profile picture = Profilkép kiválasztása
+Select profile manager = Profilkezelő kiválasztása
+Select shutdown command = Leállítási parancs kiválasztása
+Select JWM config = JWM konfiguráció kiválasztása
+Select Tint2 config = Tint2 konfiguráció kiválasztása

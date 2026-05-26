@@ -1,0 +1,202 @@
+# ============================================
+# PyMenuPup - Traduction Française
+# Version : 1.2
+# Instructions : Copiez ce fichier en tant que 'fr.lang' et traduisez le texte après le '='.
+# ============================================
+
+# === Fenêtre Principale / Configurateur ===
+PyMenuPup Configurator = Configurateur PyMenuPup
+Window = Fenêtre
+Colors = Couleurs
+Font = Police
+Paths = Chemins
+Categories = Catégories
+Save = Enregistrer
+Exit = Quitter
+
+# === Messages Système (Config) ===
+Config file not found. Creating default config. = Fichier de configuration introuvable. Création d'une configuration par défaut.
+Error loading config file: = Erreur lors du chargement du fichier de configuration :
+Using default config. = Utilisation de la configuration par défaut.
+Config saved (without closing). = Configuration enregistrée (sans fermer).
+An error occurred: = Une erreur est survenue :
+ERROR: Could not load pymenupuplang.py = ERREUR : Impossible de charger pymenupuplang.py
+
+# === Terminal Output (Logging) ===
+Loading translations from: = Chargement des traductions depuis :
+Category map built with = Carte des catégories construite avec
+entries = entrées
+Window Manager detected: = Gestionnaire de fenêtres détecté :
+Using user config = Utilisation de la configuration utilisateur
+Automatically using Tint2 config = Utilisation automatique de la configuration Tint2
+Tray config detected from = Configuration de la barre système détectée depuis
+Now monitoring JWM file for changes: = Surveillance des changements du fichier JWM :
+Folder created: = Dossier créé :
+Mouse entered applications area = La souris est entrée dans la zone des applications
+Using GTK theme colors = Utilisation des couleurs du thème GTK
+
+# === Main Menu GUI (pymenu-globicons.py) ===
+Search applications... = Rechercher des applications...
+Shutdown = Éteindre
+Leave = Quitter
+Search in the web = Rechercher sur le web
+Pymenu config = Configurer Pymenu
+Select avatar = Sélectionner un avatar
+Terminal = Terminal
+Terminal emulator = Émulateur de terminal
+File Manager = Gestionnaire de Fichiers
+File manager = Gestionnaire de fichiers
+Web browser = Navigateur web
+Run = Exécuter
+Create desktop shortcut = Créer un raccourci sur le bureau
+Acceso directo creado: = Raccourci créé :
+Comando validado: = Commande validée :
+Error creando acceso directo: = Erreur lors de la création du raccourci :
+Menu update = Mettre à jour le menu.
+# === User Directories (XDG) ===
+Home = Accueil
+Downloads = Téléchargements
+Music = Musique
+Videos = Vidéos
+Pictures = Images
+Documents = Documents
+DownloadsDir = Téléchargements
+MusicDir = Musique
+VideosDir = Vidéos
+PicturesDir = Images
+DocumentsDir = Documents
+Open directory: = Ouvrir le répertoire :
+
+# === Social Networks ===
+Social Networks = Réseaux Sociaux
+Hide social networks = Masquer les réseaux sociaux
+Hide social networks: = Masquer les réseaux sociaux :
+
+# === GUI Configuration Settings ===
+General = Général
+Search bar position: = Position de la barre de recherche :
+Use system theme: = Utiliser le thème du système :
+Background color: = Couleur de fond :
+Border color: = Couleur de la bordure :
+Categories background: = Fond des catégories :
+Text normal: = Texte normal :
+Header (OS): = En-tête (OS) :
+Header (Kernel): = En-tête (Kernel) :
+Header (Hostname): = En-tête (Nom d'hôte) :
+Hover background: = Fond au survol :
+Button background: = Fond du bouton :
+Button text: = Texte du bouton :
+Font family: = Famille de police :
+Category font: = Police des catégories :
+Category size: = Taille des catégories :
+App name size: = Taille des noms d'applications :
+Header size: = Taille de l'en-tête :
+Profile pic path: = Chemin de la photo de profil :
+Profile manager: = Gestionnaire de profil :
+Shutdown command: = Commande d'extinction :
+JWM Tray config: = Configuration de la barre système JWM :
+Tint2 config: = Configuration de Tint2 :
+Use Tint2 (instead of JWM): = Utiliser Tint2 (au lieu de JWM) :
+Search engine: = Moteur de recherche :
+
+# === Window Options ===
+Window width: = Largeur de la fenêtre :
+Window height: = Hauteur de la fenêtre :
+Icon size: = Taille des icônes :
+Category icon size: = Taille des icônes de catégories :
+Profile pic size: = Taille de la photo de profil :
+Profile pic shape: = Forme de la photo de profil :
+Show window frame: = Afficher le cadre de la fenêtre :
+(No transparency) = (Sans transparence)
+
+# === Visibility Options ===
+Hide header: = Masquer l'en-tête :
+Hide profile picture: = Masquer la photo de profil :
+Hide quick access: = Masquer l'accès rapide :
+Hide categories text: = Masquer le texte des catégories :
+Hide app names: = Masquer les noms des applications :
+Hide OS name: = Masquer le nom du système d'exploitation :
+Hide kernel: = Masquer le noyau :
+Hide hostname: = Masquer le nom d'hôte :
+Hide places sidebar: = Masquer la barre latérale des emplacements :
+(Hides both places and favorites) = (Masque à la fois les emplacements et les favoris)
+Hide favorites only: = Masquer uniquement les favorits :
+(Show places but hide favorites) = (Afficher les emplacements mais masquer les favoris)
+Show profile in places sidebar: = Afficher le profil dans la barre latérale des emplacements :
+(Instead of header) = (Au lieu de l'en-tête)
+
+# === Header Design ===
+Header layout: = Disposition de l'en-tête :
+Header text alignment: = Alignement du texte de l'en-tête :
+Avatar left = Avatar à gauche
+Avatar right = Avatar à droite
+Avatar center = Avatar au centre
+
+# === Shapes and Positions ===
+square = Carré
+circular = Circulaire
+top = Haut
+bottom = Bas
+center = Centre
+left = Gauche
+right = Droite
+
+# === Alignment ===
+Horizontal alignment: = Alignement horizontal :
+Search bar container: = Conteneur de la barre de recherche :
+In window = Dans la fenêtre
+In applications column = Dans la colonne des applications
+
+# === Categories ===
+Excluded categories: = Catégories exclues :
+Select categories to hide from menu = Sélectionnez les catégories à masquer du menu
+
+# === Category Names ===
+Desktop = Bureau
+System = Système
+Setup = Configuration
+Utility = Utilitaire
+Filesystem = Système de fichiers
+Graphic = Graphique
+Document = Documents
+Business = Affaires
+Personal = Personnel
+Network = Réseau
+Internet = Internet
+Multimedia = Multimédia
+Fun = Divertissement
+Help = Aide
+Rectify = Rectifier
+
+# === FAVORITES ===
+Favorites = Favoris
+Add favorite = Ajouter un favori
+No favorites yet. Click here to add one. = Aucun favori pour le moment. Cliquez ici pour en ajouter.
+Add Favorite = Ajouter un Favori
+Add = Ajouter
+Select an application: = Sélectionnez une application :
+Application = Application
+Select a directory: = Sélectionnez un répertoire :
+Path to directory = Chemin du répertoire
+Browse... = Parcourir...
+Directory = Répertoire
+Name: = Nom :
+Favorite name = Nom du favori
+Command: = Commande :
+Command to execute = Commande à exécuter
+Icon (optional): = Icône (facultative) :
+Icon name or path = Nom ou chemin de l'icône
+Browse icon = Parcourir les icônes
+Open File Manager = Ouvrir le Gestionnaire de Fichiers
+Command = Commande
+Select Directory = Sélectionner un Répertoire
+Select Icon = Sélectionner une Icône
+Image files = Fichiers image
+All files = Tous les fichiers
+
+# === Configuration Messages ===
+Select profile picture = Sélectionner une photo de profil
+Select profile manager = Sélectionner un gestionnaire de profil
+Select shutdown command = Sélectionner une commande d'extinction
+Select JWM config = Sélectionner la configuration JWM
+Select Tint2 config = Sélectionner la configuration Tint2
