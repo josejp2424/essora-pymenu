@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- essora-menu.xml — Generado por essora-menu-gen.py -->
+<!-- Para regenerar: /usr/local/pymenu/essora-menu-gen.py -->
+
+<EssoraMenu>
+
+  <IconPaths>
+    <Path>/usr/local/pymenu/icon-pymenu</Path>
+    <Path>/usr/share/icons/essora-dark-teal</Path>
+    <Path>/usr/share/icons/Tela</Path>
+    <Path>/usr/share/icons/Tela-black</Path>
+    <Path>/usr/share/icons/TokyoNight-SE</Path>
+    <Path>/usr/share/icons/Adwaita</Path>
+    <Path>/usr/share/pixmaps/essora</Path>
+    <Path>/usr/share/pixmaps</Path>
+    <Path>/usr/share/icons/hicolor/48x48/apps</Path>
+    <Path>/usr/share/icons/hicolor/32x32/apps</Path>
+    <Path>/usr/share/icons/hicolor/64x64/apps</Path>
+  </IconPaths>
+
+  <Tray height="30" valign="bottom" halign="center"/>
+
+  <Category label="Favorites" icon="/usr/share/pixmaps/favourite.png">
+    <App label="Essora CPU Manager" icon="/usr/local/essora-cpufreq/essora-cpufreq.png" exec="/usr/local/bin/essora-cpufreq" comment="CPU frequency and temperature manager"/>
+    <App label="Essora Firewall" icon="essora-firewall" exec="/usr/bin/essora-firewall.sh" comment="Protect the computer from unsolicited incoming connections"/>
+    <App label="Essora Locale" icon="/usr/local/essorapup-locale/icons/essora-locale.png" exec="/usr/local/essorapup-locale/locale-essora" comment="Configure language, keyboard and timezone"/>
+    <App label="Essora Network" icon="/usr/local/essora-network/icons/network-online.svg" exec="/usr/local/bin/essora-network" comment="Essora Network"/>
+    <App label="Essora Resolution" icon="/usr/share/pixmaps/essora-lcd.svg" exec="/usr/local/bin/xrandr-essora" comment="Multi-monitor resolution and display configuration manager"/>
+    <App label="Essora Store" icon="/usr/local/essora-store/essora-store.png" exec="/usr/local/essora-store/essora-repo-update" comment="Package manager for Flatpak, DEB and AppImage"/>
+    <App label="Essora Sweeper" icon="/usr/local/essora-cleaner/essora-cleaner.png" exec="/usr/local/bin/essora-cleaner" comment="Clean caches, logs, temporary files, and leftovers"/>
+    <App label="Essora System Center" icon="/usr/local/essora-system-center/icons/essora-center.png" exec="essora-system-center" comment="Native system information, monitoring and management tool for Essora Linux"/>
+    <App label="Essora VPN" icon="/usr/local/riseupvpn/essora-vpn.svg" exec="/usr/bin/essora-vpn" comment="Cliente VPN anónimo (se ejecuta como root) con selector de país"/>
+    <App label="Essora Wbar Control" icon="/usr/share/pixmaps/wbar.svg" exec="essora-wbar-control" comment="Configure Wbar for Essora desktop"/>
+    <App label="EssoraFM" icon="/usr/local/essorafm/ui/icons/essorafm.svg" exec="/usr/local/bin/essorafm" comment="Essora file manager"/>
+    <App label="EssoraPup Installer" icon="/usr/share/pixmaps/essora/essora-installer2.png" exec="essorapup-installer" comment="Install EssoraPup frugal and configure GRUB safely"/>
+    <App label="EssoraWM Wallpaper" icon="/usr/share/jwm/essorawm.svg" exec="/usr/bin/jwm-wallpaper" comment="Change the EssoraWM wallpaper"/>
+    <App label="Exit" icon="/usr/local/lib/X11/pixmaps/shutdown48.png" exec="/usr/local/KLA-Shutdown/logout_gui.py" comment="Exit"/>
+    <App label="jwm-config" icon="/usr/share/pixmaps/essora/jwm/jwmconfig.png" exec="/usr/local/bin/jwmcc.sh" comment="Manage JWM desktop"/>
+    <App label="RemasterPup Live" icon="/usr/local/remasterpup/remasterpup.png" exec="/usr/local/remasterpup/remasterpup-live" comment="Create a custom Puppy Linux live ISO"/>
+    <App label="ROX-Filer (ROOT)" icon="/usr/share/pixmaps/roxfiler-root.png" exec="roxfiler" comment="File manager (ROOT)"/>
+    <App label="Screen Capture Tool" icon="/usr/local/Lumivio/camera.svg" exec="/usr/local/Lumivio/lumivio" comment="Take screenshots (PNG), record screen regions as GIFs, or record full screen videos"/>
+  </Category>
+
+  <Category label="Games" icon="applications-games">
+    <App label="Asteroids" icon="/usr/share/pixmaps/xoids.png" exec="asteroids" comment="Asteroids"/>
+    <App label="Bubbles" icon="ballorange" exec="bubbles" comment="Bubbles"/>
+    <App label="Collapse" icon="cube-collapse" exec="collapse" comment="Thinking game"/>
+    <App label="Freecell" icon="/usr/share/pixmaps/freecell.png" exec="/usr/bin/freecell" comment="Freecell"/>
+    <App label="Gemgame" icon="Gemgame" exec="gemgame" comment="Gemgame"/>
+    <App label="Once In A Lifetime" icon="Scat_card" exec="oil" comment="Card game"/>
+    <App label="Polypuzzle game" icon="/usr/share/pixmaps/polylogo.png" exec="/usr/bin/polypuzzle" comment="Polypuzzle game"/>
+    <App label="Scat card game" icon="Scat_card" exec="/usr/bin/scat" comment="Scat card game"/>
+    <App label="Sudoku" icon="/usr/share/pixmaps/sudoku.png" exec="/usr/bin/sudoku" comment="A program for creating and solving Su Doku puzzles"/>
+    <App label="TkHangman game" icon="/usr/share/pixmaps/hangman.png" exec="/usr/bin/tkhangman" comment="TkHangman game"/>
+    <App label="TkHearts card game" icon="/usr/share/pixmaps/tksol.png" exec="/usr/share/tkgames-1.2/tkhearts" comment="TkHearts card game"/>
+    <App label="TkSol card game" icon="Scat_card" exec="/usr/bin/tksol" comment="TkSol card game"/>
+    <App label="TkSpider" icon="/usr/share/pixmaps/tkspider.png" exec="/usr/share/tkgames-1.2/tkspider" comment="TkSpider"/>
+    <App label="TkTk card game" icon="/usr/share/pixmaps/tksol.png" exec="/usr/share/tkgames-1.2/tktk" comment="TkTk card game"/>
+    <App label="TkTp card game" icon="/usr/share/pixmaps/tksol.png" exec="/usr/share/tkgames-1.2/tktp" comment="TkTp card game"/>
+    <App label="TkTris" icon="/usr/share/pixmaps/tktris.png" exec="tktris" comment="TkTris"/>
+    <App label="TkYahtzee game" icon="/usr/share/pixmaps/yahtzee.png" exec="/usr/share/tkgames-1.2/tkyahtzee" comment="TkYahtzee game"/>
+    <App label="Wordjumble" icon="wordjumble" exec="wordjumble" comment="Wordjumble game"/>
+  </Category>
+
+  <Category label="Graphics" icon="applications-graphics">
+    <App label="Gcolor2" icon="/usr/share/pixmaps/puppy/select-color.svg" exec="gcolor2" comment="Color chooser and picker"/>
+    <App label="Screen Capture Tool" icon="/usr/local/Lumivio/camera.svg" exec="/usr/local/Lumivio/lumivio" comment="Take screenshots (PNG), record screen regions as GIFs, or record full screen videos"/>
+    <App label="Viewnior" icon="viewnior" exec="viewnior" comment="Elegant Image Viewer"/>
+  </Category>
+
+  <Category label="Internet" icon="applications-internet">
+    <App label="Bluetooth Manager" icon="blueman" exec="blueman-manager" comment="Blueman Bluetooth Manager"/>
+    <App label="Essora Firewall" icon="essora-firewall" exec="/usr/bin/essora-firewall.sh" comment="Protect the computer from unsolicited incoming connections"/>
+    <App label="Essora Network" icon="/usr/local/essora-network/icons/network-online.svg" exec="/usr/local/bin/essora-network" comment="Essora Network"/>
+    <App label="Essora VPN" icon="/usr/local/riseupvpn/essora-vpn.svg" exec="/usr/bin/essora-vpn" comment="Cliente VPN anónimo (se ejecuta como root) con selector de país"/>
+    <App label="Firefox ESR" icon="firefox-esr" exec="/usr/lib/firefox-esr/firefox-esr" comment="Browse the World Wide Web"/>
+    <App label="Oply Convert" icon="/usr/local/Oply/icons/oply-convert.svg" exec="/usr/local/Oply/Oply-Convert" comment="Descargue fácilmente música o video desde YouTube"/>
+    <App label="Pup-Advert-Blocker" icon="/usr/share/pixmaps/puppy/dialog_stop.svg" exec="pup-advert-blocker" comment="Blocks many online adverts"/>
+    <App label="PuTTY SSH Client" icon="putty" exec="putty" comment="Connect to an SSH server with PuTTY"/>
+  </Category>
+
+  <Category label="Multimedia" icon="applications-multimedia">
+    <App label="CD/DVD burner" icon="/usr/share/pixmaps/puppy/cd_burn.svg" exec="burniso2cd" comment="Burn iso to CD/DVD"/>
+    <App label="ISO Master" icon="/usr/share/pixmaps/isomaster.png" exec="isomaster" comment="Read, write and modify ISO images"/>
+    <App label="Oply" icon="/usr/local/Oply/icons/oply.svg" exec="/usr/local/bin/oply" comment="Reproduzca fácilmente sus archivos de música"/>
+    <App label="Oply Convert" icon="/usr/local/Oply/icons/oply-convert.svg" exec="/usr/local/Oply/Oply-Convert" comment="Descargue fácilmente música o video desde YouTube"/>
+    <App label="Oply Radio" icon="/usr/local/Oply/icons/radio.svg" exec="/usr/local/bin/oply_radio" comment="Listen to online radio stations easily"/>
+    <App label="Oply Video Player" icon="/usr/local/Oply/icons/oply-video.svg" exec="/usr/local/bin/Oply-Video" comment="Play videos with Oply Video Player"/>
+    <App label="Pburn CD/DVD/Blu-ray writer" icon="/usr/local/pburn/pburn20.png" exec="pburn" comment="Pburn CD/DVD/Blu-ray writer"/>
+    <App label="Screen Capture Tool" icon="/usr/local/Lumivio/camera.svg" exec="/usr/local/Lumivio/lumivio" comment="Take screenshots (PNG), record screen regions as GIFs, or record full screen videos"/>
+    <App label="Volume Control" icon="multimedia-volume-control" exec="pavucontrol" comment="Adjust the volume level"/>
+  </Category>
+
+  <Category label="Office" icon="applications-office">
+    <App label="AbiWord" icon="abiword" exec="abiword" comment="Compose, edit, and view documents"/>
+    <App label="DoggyBank" icon="/root/.doggybank/doggybank.png" exec="python3 /usr/local/bin/doggybank.py" comment="Manage your personal finances"/>
+    <App label="Galculator" icon="galculator" exec="galculator" comment="Perform simple and scientific calculations"/>
+    <App label="Geany" icon="geany" exec="geany" comment="A fast and lightweight IDE using GTK+"/>
+    <App label="Gnumeric" icon="gnumeric" exec="gnumeric --name org.gnumeric.gnumeric" comment="Calculation, Analysis, and Visualization of Information"/>
+    <App label="pClock" icon="/usr/share/pixmaps/puppy/clock.svg" exec="pclock" comment="Time tools"/>
+    <App label="pTiming" icon="/usr/share/pixmaps/puppy/clock_stopwatch.svg" exec="ptiming" comment="Event timer system"/>
+  </Category>
+
+  <Category label="System" icon="applications-system">
+    <App label="Bluetooth Adapters" icon="blueman-device" exec="blueman-adapters" comment="Set Bluetooth Adapter Properties"/>
+    <App label="Debian Build Tool" icon="/usr/local/debcreator/debcreator.svg" exec="/usr/local/bin/make-deb" comment="Crea y compila paquetes en Debian"/>
+    <App label="Essora CPU Manager" icon="/usr/local/essora-cpufreq/essora-cpufreq.png" exec="/usr/local/bin/essora-cpufreq" comment="CPU frequency and temperature manager"/>
+    <App label="Essora Firewall" icon="essora-firewall" exec="/usr/bin/essora-firewall.sh" comment="Protect the computer from unsolicited incoming connections"/>
+    <App label="Essora Locale" icon="/usr/local/essorapup-locale/icons/essora-locale.png" exec="/usr/local/essorapup-locale/locale-essora" comment="Configure language, keyboard and timezone"/>
+    <App label="Essora Store" icon="/usr/local/essora-store/essora-store.png" exec="/usr/local/essora-store/essora-repo-update" comment="Package manager for Flatpak, DEB and AppImage"/>
+    <App label="Essora Sweeper" icon="/usr/local/essora-cleaner/essora-cleaner.png" exec="/usr/local/bin/essora-cleaner" comment="Clean caches, logs, temporary files, and leftovers"/>
+    <App label="Essora System Center" icon="/usr/local/essora-system-center/icons/essora-center.png" exec="essora-system-center" comment="Native system information, monitoring and management tool for Essora Linux"/>
+    <App label="Essora VPN" icon="/usr/local/riseupvpn/essora-vpn.svg" exec="/usr/bin/essora-vpn" comment="Cliente VPN anónimo (se ejecuta como root) con selector de país"/>
+    <App label="EssoraFM" icon="/usr/local/essorafm/ui/icons/essorafm.svg" exec="/usr/local/bin/essorafm" comment="Essora file manager"/>
+    <App label="EssoraPup Installer" icon="/usr/share/pixmaps/essora/essora-installer2.png" exec="essorapup-installer" comment="Install EssoraPup frugal and configure GRUB safely"/>
+    <App label="Event manager" icon="/usr/share/pixmaps/puppy/execute.svg" exec="eventmanager" comment="Configure services running in the background"/>
+    <App label="Exit" icon="/usr/local/lib/X11/pixmaps/shutdown48.png" exec="/usr/local/KLA-Shutdown/logout_gui.py" comment="Exit"/>
+    <App label="Gestor de Alias" icon="/usr/share/icons/TokyoNight-SE/64x64/apps/system-config-authentication.svg" exec="/usr/local/bin/Alias_Manager" comment="Interfaz gráfica para crear y administrar alias con permisos sudo"/>
+    <App label="GParted" icon="gparted" exec="/usr/bin/gparted" comment="Create, reorganize, and delete partitions"/>
+    <App label="GtkHash" icon="org.gtkhash.gtkhash" exec="gtkhash" comment="Calculate message digests or checksums"/>
+    <App label="Htop" icon="htop" exec="/usr/bin/HTOP" comment="Show System Processes"/>
+    <App label="IPInfo" icon="/usr/share/pixmaps/puppy/network.svg" exec="ipinfo" comment="Network information"/>
+    <App label="Login manager" icon="/usr/share/pixmaps/puppy/user_login.svg" exec="loginmanager" comment="Configure login and security"/>
+    <App label="Menu manager" icon="/usr/share/pixmaps/puppy/menu.svg" exec="menumanager" comment="Configure the main menu"/>
+    <App label="Package manager (Legacy)" icon="/usr/share/pixmaps/puppy/package_add.svg" exec="/usr/local/petget/pkg_chooser.sh" comment="Install/uninstall apps"/>
+    <App label="pSchedule" icon="/usr/share/pixmaps/puppy/clock_interval.svg" exec="/usr/local/bin/pschedule" comment="Set up a task on a given time"/>
+    <App label="Puppy Setup" icon="/usr/share/pixmaps/puppy/puppy_config.svg" exec="wizardwizard" comment="Configure your Puppy OS"/>
+    <App label="QuickSetup" icon="/usr/share/pixmaps/puppy/puppy_config.svg" exec="quicksetup" comment="First-run setup of resolution, country and network"/>
+    <App label="RemasterPup Live" icon="/usr/local/remasterpup/remasterpup.png" exec="/usr/local/remasterpup/remasterpup-live" comment="Create a custom Puppy Linux live ISO"/>
+    <App label="ROX-Filer (ROOT)" icon="/usr/share/pixmaps/roxfiler-root.png" exec="roxfiler" comment="File manager (ROOT)"/>
+    <App label="Screen Control" icon="/usr/local/screen-control/screen-control.png" exec="/usr/local/bin/screen-control" comment="Configure screen timeout and monitor power management"/>
+    <App label="SFS-Load" icon="squashfs-image.png" exec="sfs_load" comment="SFS file loader"/>
+    <App label="UXTerm" icon="mini.xterm" exec="uxterm" comment="xterm wrapper for Unicode environments"/>
+    <App label="XTerm" icon="mini.xterm" exec="xterm" comment="standard terminal emulator for the X window system"/>
+  </Category>
+
+  <Category label="Utilities" icon="applications-utilities">
+    <App label="Debian Build Tool" icon="/usr/local/debcreator/debcreator.svg" exec="/usr/local/bin/make-deb" comment="Crea y compila paquetes en Debian"/>
+    <App label="Essora Sweeper" icon="/usr/local/essora-cleaner/essora-cleaner.png" exec="/usr/local/bin/essora-cleaner" comment="Clean caches, logs, temporary files, and leftovers"/>
+    <App label="Essora System Center" icon="/usr/local/essora-system-center/icons/essora-center.png" exec="essora-system-center" comment="Native system information, monitoring and management tool for Essora Linux"/>
+    <App label="EssoraFM" icon="/usr/local/essorafm/ui/icons/essorafm.svg" exec="/usr/local/bin/essorafm" comment="Essora file manager"/>
+    <App label="FileMnt" icon="/usr/share/pixmaps/puppy/cdrom.svg" exec="filemnt -manager" comment="Unmount disk image files"/>
+    <App label="Flitz Compressor" icon="/usr/local/flitz/Flitz.png" exec="flitz-compressor" comment="A graphical tool to compress folders in various formats (tar.gz, tar.xz, zip, 7z, squashfs)"/>
+    <App label="Flitz Extractor" icon="/usr/local/flitz/Flitz.png" exec="flitz-extractor" comment="Universal archive extractor"/>
+    <App label="Geany" icon="geany" exec="geany" comment="A fast and lightweight IDE using GTK+"/>
+    <App label="Gestor de Alias" icon="/usr/share/icons/TokyoNight-SE/64x64/apps/system-config-authentication.svg" exec="/usr/local/bin/Alias_Manager" comment="Interfaz gráfica para crear y administrar alias con permisos sudo"/>
+    <App label="Gexec" icon="/usr/share/pixmaps/puppy/execute.svg" exec="gexec" comment="execute a command"/>
+    <App label="GParted" icon="gparted" exec="/usr/bin/gparted" comment="Create, reorganize, and delete partitions"/>
+    <App label="GtkHash" icon="org.gtkhash.gtkhash" exec="gtkhash" comment="Calculate message digests or checksums"/>
+    <App label="Icon Browser" icon="yad" exec="yad-icon-browser" comment="Inspect GTK Icon Theme"/>
+    <App label="LXTerminal" icon="/usr/share/pixmaps/puppy/terminal.svg" exec="lxterminal" comment="Use the command line"/>
+    <App label="MoManager" icon="/usr/share/pixmaps/puppy/country_language.svg" exec="momanager" comment="Create non-English translations"/>
+    <App label="Partview" icon="/usr/share/pixmaps/puppy/partition.svg" exec="partview" comment="Show size and free space of partitions"/>
+    <App label="pFind" icon="/usr/share/pixmaps/puppy/find.svg" exec="pfind" comment="Find files on your system"/>
+    <App label="pMirror" icon="/usr/share/pixmaps/puppy/directory_execute.svg" exec="pmirror" comment="Syncronize a backup directory"/>
+    <App label="Pmount" icon="/usr/share/pixmaps/puppy/harddisk.svg" exec="pmount" comment="Mount/unmount partitions"/>
+    <App label="Pudd" icon="/usr/share/pixmaps/puppy/copy_disk.svg" exec="Pudd" comment="Copy complete drive/partition"/>
+    <App label="Pupsave Backup" icon="/usr/share/pixmaps/puppy/copy_disk.svg" exec="pupsave-backup" comment="Quick backup of your Puppy savefiles"/>
+    <App label="RemasterPup Live" icon="/usr/local/remasterpup/remasterpup.png" exec="/usr/local/remasterpup/remasterpup-live" comment="Create a custom Puppy Linux live ISO"/>
+    <App label="Resize personal storage" icon="/usr/share/pixmaps/puppy/puppy_increase.svg" exec="resizepfile.sh" comment="Resize the personal storage file"/>
+    <App label="ROX-Filer (ROOT)" icon="/usr/share/pixmaps/roxfiler-root.png" exec="roxfiler" comment="File manager (ROOT)"/>
+    <App label="Screen Capture Tool" icon="/usr/local/Lumivio/camera.svg" exec="/usr/local/Lumivio/lumivio" comment="Take screenshots (PNG), record screen regions as GIFs, or record full screen videos"/>
+    <App label="UXTerm" icon="mini.xterm" exec="uxterm" comment="xterm wrapper for Unicode environments"/>
+    <App label="Xdelta" icon="/usr/share/pixmaps/puppy/file_compare.svg" exec="xdelta_gui" comment="File difference manager"/>
+    <App label="XTerm" icon="mini.xterm" exec="xterm" comment="standard terminal emulator for the X window system"/>
+  </Category>
+
+  <Category label="Desktop" icon="preferences-desktop">
+    <App label="Chooselocale" icon="/usr/share/pixmaps/puppy/country_language.svg" exec="chooselocale" comment="Choose your country localisation"/>
+    <App label="Font viewer" icon="/usr/share/pixmaps/puppy/font.svg" exec="gfontsel" comment="Font viewer"/>
+    <App label="GTK theme switcher" icon="/usr/share/pixmaps/puppy/windows.svg" exec="ptheme_gtk" comment="Change program decoration"/>
+    <App label="Pcur" icon="/usr/share/pixmaps/puppy/mouse_cursor.svg" exec="pcur" comment="Mouse cursor selector"/>
+    <App label="WM Switcher Switch windowmanagers" icon="/usr/share/pixmaps/wmswitcher/wmswitcher.svg" exec="wmswitcher" comment="WM Switcher Switch windowmanagers"/>
+  </Category>
+
+</EssoraMenu>

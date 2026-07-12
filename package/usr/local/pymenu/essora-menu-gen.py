@@ -25,6 +25,7 @@ OUTPUT_SYSTEM = os.path.join(CONFIG_DIR, "essora-menu.xml")
 
 ICON_PATHS = [
     "/usr/local/pymenu/icon-pymenu",
+    "/usr/share/icons/essora-dark-teal",
     "/usr/share/icons/Tela",
     "/usr/share/icons/Tela-black",
     "/usr/share/icons/TokyoNight-SE",

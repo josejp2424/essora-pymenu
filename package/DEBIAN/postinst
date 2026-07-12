@@ -1,0 +1,22 @@
+#!/bin/sh
+set -e
+
+chmod 755 /usr/local/bin/pymenu \
+          /usr/local/pymenu/essora-pymenu \
+          /usr/local/pymenu/essora-menu-gen.py \
+          /usr/local/pymenu/generate_essora_directories.py \
+          /usr/local/pymenu/pymenu-config.py \
+          /usr/local/pymenu/ProfileManager.py \
+          /usr/local/pymenu/wine-desktop-creator.py
+
+mkdir -p /root/.config/essorawm
+
+if [ ! -f /root/.config/essorawm/pymenu.json ]; then
+    cp -f /usr/local/pymenu/defaults/pymenu.json /root/.config/essorawm/pymenu.json
+fi
+
+if [ ! -f /root/.config/essorawm/essora-menu.xml ]; then
+    cp -f /usr/local/pymenu/essora-menu.xml /root/.config/essorawm/essora-menu.xml
+fi
+
+exit 0

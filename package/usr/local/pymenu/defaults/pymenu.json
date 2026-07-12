@@ -1,14 +1,14 @@
 {
     "window": {
-        "width": 682,
+        "width": 693,
         "height": 440,
         "halign": "center",
         "icon_size": 16,
-        "profile_pic_size": 64,
+        "profile_pic_size": 48,
         "decorated_window": false,
-        "hide_header": false,
+        "hide_header": true,
         "hide_category_text": false,
-        "category_icon_size": 40,
+        "category_icon_size": 16,
         "profile_pic_shape": "circular",
         "header_layout": "center",
         "hide_os_name": true,
@@ -47,7 +47,7 @@
     "paths": {
         "profile_pic": "/usr/local/pymenu/icon-pymenu/preferences-desktop-essora.svg",
         "profile_manager": "/usr/local/pymenu/ProfileManager.py",
-        "shutdown_cmd": "/usr/local/bin/logout_gui",
+        "shutdown_cmd": "/usr/local/KLA-Shutdown/logout_gui.py",
         "jwmrc_tray": "/usr/share/jwm/jwm/jwmrc-tray",
         "tint2rc": "/usr/share/tint2/tint2/tint2rc"
     },

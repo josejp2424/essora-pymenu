@@ -1,0 +1,14 @@
+Package: essora-pymenu
+Version: 1.0.1-1
+Section: x11
+Priority: optional
+Architecture: @ARCH@
+Installed-Size: @INSTALLED_SIZE@
+Maintainer: josejp2424 <puppylinuxjosejp2424@gmail.com>
+Depends: libgtk-3-0 | libgtk-3-0t64, libglib2.0-0 | libglib2.0-0t64, libgdk-pixbuf-2.0-0, python3, python3-xdg
+Homepage: https://www.essora.org
+Description: Native GTK3 application menu for EssoraWM
+ A lightweight C/GTK3 menu that loads categories and applications only from
+ ~/.config/essorawm/essora-menu.xml. Flatpak, AppImage, Wine and regular
+ applications are preserved through the commands generated in that XML.
+ The existing Python menu generators and configuration utilities are included.
